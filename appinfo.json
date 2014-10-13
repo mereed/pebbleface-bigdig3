@@ -1,0 +1,338 @@
+{
+    "appKeys": {
+        "bluetoothvibe": 8,
+        "hidebatt": 3,
+        "hidedate": 4,
+        "hidesec": 6,
+        "hideweather": 5,
+        "hourlyvibe": 7,
+        "icon": 0,
+        "invert_color": 2,
+        "temperature": 1
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "mereed",
+    "longName": "big digital 3",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/digds-date9.png",
+                "name": "IMAGE_NUM_DATE9",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date8.png",
+                "name": "IMAGE_NUM_DATE8",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date7.png",
+                "name": "IMAGE_NUM_DATE7",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date6.png",
+                "name": "IMAGE_NUM_DATE6",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date5.png",
+                "name": "IMAGE_NUM_DATE5",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date4.png",
+                "name": "IMAGE_NUM_DATE4",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date3.png",
+                "name": "IMAGE_NUM_DATE3",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date2.png",
+                "name": "IMAGE_NUM_DATE2",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date1.png",
+                "name": "IMAGE_NUM_DATE1",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-date0.png",
+                "name": "IMAGE_NUM_DATE0",
+                "type": "png"
+            },
+            {
+                "file": "images/digds0.png",
+                "name": "IMAGE_NUM_0",
+                "type": "png"
+            },
+            {
+                "file": "images/digds1.png",
+                "name": "IMAGE_NUM_1",
+                "type": "png"
+            },
+            {
+                "file": "images/digds2.png",
+                "name": "IMAGE_NUM_2",
+                "type": "png"
+            },
+            {
+                "file": "images/digds3.png",
+                "name": "IMAGE_NUM_3",
+                "type": "png"
+            },
+            {
+                "file": "images/digds4.png",
+                "name": "IMAGE_NUM_4",
+                "type": "png"
+            },
+            {
+                "file": "images/digds5.png",
+                "name": "IMAGE_NUM_5",
+                "type": "png"
+            },
+            {
+                "file": "images/digds6.png",
+                "name": "IMAGE_NUM_6",
+                "type": "png"
+            },
+            {
+                "file": "images/digds7.png",
+                "name": "IMAGE_NUM_7",
+                "type": "png"
+            },
+            {
+                "file": "images/digds8.png",
+                "name": "IMAGE_NUM_8",
+                "type": "png"
+            },
+            {
+                "file": "images/digds9.png",
+                "name": "IMAGE_NUM_9",
+                "type": "png"
+            },
+            {
+                "file": "images/icon_bluetooth_ANALOG.png",
+                "name": "IMAGE_BLUETOOTH",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min0.png",
+                "name": "IMAGE_NUM_M0",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min1.png",
+                "name": "IMAGE_NUM_M1",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min2.png",
+                "name": "IMAGE_NUM_M2",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min3.png",
+                "name": "IMAGE_NUM_M3",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min4.png",
+                "name": "IMAGE_NUM_M4",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min5.png",
+                "name": "IMAGE_NUM_M5",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min6.png",
+                "name": "IMAGE_NUM_M6",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min7.png",
+                "name": "IMAGE_NUM_M7",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min8.png",
+                "name": "IMAGE_NUM_M8",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-min9.png",
+                "name": "IMAGE_NUM_M9",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec0.png",
+                "name": "IMAGE_NUM_S0",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec1.png",
+                "name": "IMAGE_NUM_S1",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec2.png",
+                "name": "IMAGE_NUM_S2",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec3.png",
+                "name": "IMAGE_NUM_S3",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec4.png",
+                "name": "IMAGE_NUM_S4",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec5.png",
+                "name": "IMAGE_NUM_S5",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec6.png",
+                "name": "IMAGE_NUM_S6",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec7.png",
+                "name": "IMAGE_NUM_S7",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec8.png",
+                "name": "IMAGE_NUM_S8",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sec9.png",
+                "name": "IMAGE_NUM_S9",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt100.png",
+                "name": "IMAGE_BATT_090_100",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt90.png",
+                "name": "IMAGE_BATT_080_090",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt80.png",
+                "name": "IMAGE_BATT_070_080",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt70.png",
+                "name": "IMAGE_BATT_060_070",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt60.png",
+                "name": "IMAGE_BATT_050_060",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt50.png",
+                "name": "IMAGE_BATT_040_050",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt40.png",
+                "name": "IMAGE_BATT_030_040",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt30.png",
+                "name": "IMAGE_BATT_020_030",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt20.png",
+                "name": "IMAGE_BATT_010_020",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt10.png",
+                "name": "IMAGE_BATT_000_010",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-batt-charcing.png",
+                "name": "IMAGE_BATT_CHARGING",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sun.png",
+                "name": "IMAGE_DAY_NAME_SUN",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9 CF]",
+                "file": "fonts/DS-DIGI.TTF",
+                "name": "FONT_DIGITALDS_29",
+                "trackingAdjust": 1,
+                "type": "font"
+            },
+            {
+                "file": "images/digds-mon.png",
+                "name": "IMAGE_DAY_NAME_MON",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-tue.png",
+                "name": "IMAGE_DAY_NAME_TUE",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-wed.png",
+                "name": "IMAGE_DAY_NAME_WED",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-thu.png",
+                "name": "IMAGE_DAY_NAME_THU",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-fri.png",
+                "name": "IMAGE_DAY_NAME_FRI",
+                "type": "png"
+            },
+            {
+                "file": "images/digds-sat.png",
+                "name": "IMAGE_DAY_NAME_SAT",
+                "type": "png"
+            },
+            {
+                "file": "images/DIGDS-MENU.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "bigd3",
+    "uuid": "68d98adc-4b17-440e-8ce2-bfffc2d2b8c0",
+    "versionCode": 1,
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
