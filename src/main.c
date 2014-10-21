@@ -295,11 +295,17 @@ void update_battery(BatteryChargeState charge_state) {
 }
 
 static void toggle_bluetooth_icon(bool connected) {
-  if(appStarted && connected && bluetoothvibe) {
-    //vibe!
-    vibes_long_pulse();
-  }
-  layer_set_hidden(bitmap_layer_get_layer(bluetooth_layer), connected);
+
+    if (connected) {
+	  layer_set_hidden(bitmap_layer_get_layer(bluetooth_layer), true);
+    } else {
+  	  layer_set_hidden(bitmap_layer_get_layer(bluetooth_layer), false);
+    }
+
+    if (appStarted && bluetoothvibe) {
+      
+        vibes_long_pulse();
+	}
 }
 
 void bluetooth_connection_callback(bool connected) {

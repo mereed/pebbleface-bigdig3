@@ -284,7 +284,6 @@
                 "type": "png"
             },
             {
-                "characterRegex": "[0-9 CF]",
                 "file": "fonts/DS-DIGI.TTF",
                 "name": "FONT_DIGITALDS_29",
                 "trackingAdjust": 1,
@@ -331,7 +330,7 @@
     "shortName": "bigd3",
     "uuid": "68d98adc-4b17-440e-8ce2-bfffc2d2b8c0",
     "versionCode": 1,
-    "versionLabel": "1.1",
+    "versionLabel": "1.4",
     "watchapp": {
         "watchface": true
     }
